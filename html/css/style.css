@@ -1,0 +1,29 @@
+body {
+  overflow: hidden;
+  display: block;
+  margin: 0;
+}
+
+#drone_hud {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: rgba(230, 230, 230, 0.75);
+  opacity: 0.0;
+}
+
+.upper_hud {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 20px;
+  left: 20%;
+  height: 60px;
+  width: 60%;
+
+  font-family: 'Digital';
+  font-size: 30px;
+  font-weight: 100;
+}
+
